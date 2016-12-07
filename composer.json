@@ -1,0 +1,15 @@
+{
+    "name": "pinguin501/kangoroo",
+    "description": "Collection of all known wrong assigned quotes by Marc-Uwe Kling",
+    "type": "package",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Alexander Hesse",
+            "email": "alexander.hesse@sandstorm-media.de"
+        }
+    ],
+    "require": {
+	"vlucas/bulletphp": "*"
+    }
+}
