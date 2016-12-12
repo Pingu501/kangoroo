@@ -1,42 +1,44 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-function setup() {
-	return new PDO('mysql:host=localhost;dbname=kanguru', 'root', '');
-}
-
-// Your App
-$app = new Bullet\App();
-$app->path('/', function ($request) {
-	include("main.html");
-});
-
-$app->path('/listAll', function ($request) {
-
-	$pdo = setup();
-
+function query($sql) {
+	$pdo = new PDO('mysql:host=localhost;dbname=kanguru', 'root', '');
 	$array = [];
-	foreach($pdo->query("SELECT * from quotes") as $row) {
+	foreach($pdo->query($sql) as $row) {
 		unset($row[0]);
 		unset($row[1]);
 		unset($row[2]);
 		array_push($array, $row);
 	}
 
-	echo json_encode($array);
+	return $array;
+}
+
+// Your App
+$app = new Bullet\App();
+$app->path('/', function ($request) {
+	return include("main.html");
 });
 
-$app->path('/get/', function ($request) {
+$app->path('/listAll', function ($request) {
 
-	$id = 1;
-	$pdo = setup();
+	$sql = "SELECT * FROM quotes";
+	return json_encode(query($sql));
+});
 
-	$array = [];
-	foreach($pdo->query("SELECT * from quotes WHERE id = " . $id) as $row) {
-		array_push($array, $row);
-	}
+$app->path('/random', function ($request) {
 
-	echo json_encode($array);
+	$sql = "SELECT * FROM quotes ORDER BY RAND() LIMIT 1";
+	return json_encode(query($sql));
+});
+
+/**
+ * @param POST id of requested quote
+ */
+$app->path('/get', function ($request) {
+
+	$sql = "SELECT * FROM quotes WHERE id = " + id;
+	return json_encode(query($sql));
 });
 
 // Run the app! (takes $method, $url or Bullet\Request object)
