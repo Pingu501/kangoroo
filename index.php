@@ -8,7 +8,7 @@ function setup() {
 // Your App
 $app = new Bullet\App();
 $app->path('/', function ($request) {
-	return "Hello World!";
+	include("main.html");
 });
 
 $app->path('/listAll', function ($request) {
@@ -17,6 +17,9 @@ $app->path('/listAll', function ($request) {
 
 	$array = [];
 	foreach($pdo->query("SELECT * from quotes") as $row) {
+		unset($row[0]);
+		unset($row[1]);
+		unset($row[2]);
 		array_push($array, $row);
 	}
 
@@ -25,10 +28,11 @@ $app->path('/listAll', function ($request) {
 
 $app->path('/get/', function ($request) {
 
+	$id = 1;
 	$pdo = setup();
 
 	$array = [];
-	foreach($pdo->query("SELECT * from quotes") as $row) {
+	foreach($pdo->query("SELECT * from quotes WHERE id = " . $id) as $row) {
 		array_push($array, $row);
 	}
 
