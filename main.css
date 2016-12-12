@@ -1,0 +1,55 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family:"Tafelschrift";
+    src: url("tafelschrift.ttf");
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+
+    height: 100%;
+    width: 100%;
+}
+
+.quote {
+    position: relative;
+    margin: auto;
+
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+#quote__text {
+    padding: 30px;
+
+    transform: rotate(-5deg);
+
+    font-family: "Tafelschrift", monospace;
+    font-size: 70;
+    color: white;
+}
+
