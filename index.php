@@ -1,6 +1,8 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
+$pdo = new PDO('mysql:host=localhost;dbname=kanguru', 'root', '');
+
 // Your App
 $app = new Bullet\App();
 $app->path('/', function($request) {
