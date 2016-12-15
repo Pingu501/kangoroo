@@ -1,5 +1,4 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
 
 function query($sql) {
 	$pdo = new PDO('mysql:host=localhost;dbname=kanguru', 'root', '');
@@ -14,32 +13,23 @@ function query($sql) {
 	return $array;
 }
 
-// Your App
-$app = new Bullet\App();
-$app->path('/', function ($request) {
+if(isset($_GET["mode"])) {
+
+	switch ($_GET["mode"]) {
+		case "listAll":
+			$sql = "SELECT * FROM quotes";
+			break;
+		case "random":
+			$sql = "SELECT * FROM quotes ORDER BY RAND() LIMIT 1";
+			break;
+		case "get":
+			$sql = "SELECT * FROM quotes WHERE id = " + id;
+			break;
+		default:
+			$sql = "SELECT * FROM quotes";
+	}
+
+	return json_encode(query($sql));
+} else {
 	return include("main.html");
-});
-
-$app->path('/listAll', function ($request) {
-
-	$sql = "SELECT * FROM quotes";
-	return json_encode(query($sql));
-});
-
-$app->path('/random', function ($request) {
-
-	$sql = "SELECT * FROM quotes ORDER BY RAND() LIMIT 1";
-	return json_encode(query($sql));
-});
-
-/**
- * @param POST id of requested quote
- */
-$app->path('/get', function ($request) {
-
-	$sql = "SELECT * FROM quotes WHERE id = " + id;
-	return json_encode(query($sql));
-});
-
-// Run the app! (takes $method, $url or Bullet\Request object)
-echo $app->run(new Bullet\Request());
+}
