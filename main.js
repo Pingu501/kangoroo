@@ -1,17 +1,20 @@
 var url = window.location.href;
 var urlParts = url.split("/");
 
-var endpoint = urlParts[0] + "//" + urlParts[2] + "/";
+var endpoint = urlParts[0] + "//" + urlParts[2] + "/api.php";
 
 
 $(document).ready(function() {
 
 
-	function apiCall(path) {
+	function apiCall(mode) {
 		var returnJSON = undefined;
 		$.ajax({
 			type: "GET",
-			url: endpoint + path,
+			url: endpoint,
+			data: {
+				mode: mode
+			},
 			async: false,
 			complete: function (response) {
 				if(response.status == 200) {
