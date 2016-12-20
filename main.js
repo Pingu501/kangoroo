@@ -1,20 +1,13 @@
-var url = window.location.href;
-var urlParts = url.split("/");
-
-var endpoint = urlParts[0] + "//" + urlParts[2] + "/api.php";
-
-
 $(document).ready(function() {
 
-	var minKeyValue = 0;
 	var maxKeyValue = Object.keys(quotes).length -1;
 
-	console.log(minKeyValue, maxKeyValue);
-
 	function getRandomQuote() {
-		var quote = apiCall("random");
-		$('#quote__text').html(quote[0].quote);
-		$('#quote__author').html(quote[0].author);
+		var num = (Math.random() * maxKeyValue).toFixed(0);
+		var quote = quotes[num];
+
+			$('#quote__text').html(quote.quote);
+		$('#quote__author').html(quote.author);
 	}
 
 	getRandomQuote();

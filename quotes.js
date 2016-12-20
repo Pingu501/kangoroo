@@ -10,7 +10,7 @@ var quotes = {
         "original": "Walter Ulbricht"
     },
     "2": {
-        "quote": "Frage nicht, was dein Land für dich tun kann, frage was du für dein Land tun kannst.",
+        "quote": "Frage nicht, was dein Land f&uuml;r dich tun kann, frage was du f&uuml;r dein Land tun kannst.",
         "author": "Kim Jong-il",
         "original": "John F. Kennedy"
     },
@@ -25,7 +25,7 @@ var quotes = {
         "original": "Ronald Reagan"
     },
     "5": {
-        "quote": "Frage nicht, was dein Land für dich tun kann, frage was du für dein Land tun kannst.",
+        "quote": "Frage nicht, was dein Land f&uuml;r dich tun kann, frage was du f&uuml;r dein Land tun kannst.",
         "author": "Kim Jong-il",
         "original": "John F. Kennedy"
     },
@@ -42,7 +42,7 @@ var quotes = {
     "8": {
         "quote": "Da hat das rote Pferd sich einfach umgekehrt und hat mit seinem Schwanz die Fliege abgewehrt",
         "author": "Johann Wolfgang von Goethe",
-        "original": "Kinderlied mit unbekanntem Autor, von Markus Becker als Party-Schlager zu neuer Popularität gebracht."
+        "original": "Kinderlied mit unbekanntem Autor, von Markus Becker als Party-Schlager zu neuer Popularit&auml;t gebracht."
     },
     "9": {
         "quote": "Herr: es ist Zeit. Der Sommer war sehr groß. Leg deinen Schatten auf die Sonnenuhren, und auf den Fluren lass die Winde los",
@@ -67,7 +67,7 @@ var quotes = {
     "13": {
         "quote": "Heinrich, mir graut's vor dir",
         "author": "Thomas Mann",
-        "original": "Gretchen aus Goethes Tragödie Faust"
+        "original": "Gretchen aus Goethes Trag&ouml;die Faust"
     },
     "14": {
         "quote": "Ob Mailand oder Madrid, hauptsache Italien",
@@ -75,12 +75,12 @@ var quotes = {
         "original": "John F. Kennedy"
     },
     "15": {
-        "quote": "Frage nicht, was dein Land für dich tun kann, frage was du für dein Land tun kannst.",
+        "quote": "Frage nicht, was dein Land f&uuml;r dich tun kann, frage was du f&uuml;r dein Land tun kannst.",
         "author": "Papst Benedikt der sechzehnte",
-        "original": "Andreas Möller"
+        "original": "Andreas M&ouml;ller"
     },
     "16": {
-        "quote": "Wenn man ein 0:2 kassiert, dann ist ein 1:1 nicht mehr möglich",
+        "quote": "Wenn man ein 0:2 kassiert, dann ist ein 1:1 nicht mehr m&ouml;glich",
         "author": "Satz des Pythagoras",
         "original": "Aleksander Ristic"
     },
@@ -105,7 +105,7 @@ var quotes = {
 		"original": "Bruno Labbadia"
 	},
 	"21": {
-		"quote": "Liebe deinen Nächsten wie dich selbst.",
+		"quote": "Liebe deinen N&auml;chsten wie dich selbst.",
 		"author": "Kurt Cobain",
 		"original": "An den verschiedensten Stellen in der Bibel"
 	},
@@ -120,19 +120,19 @@ var quotes = {
 		"original": "Manifest der Kommunistischen Partei"
 	},
 	"24": {
-		"quote": "Schön, die Phönizier haben das Geld erfunden. Aber warum so wenig?",
+		"quote": "Sch&ouml;n, die Ph&ouml;nizier haben das Geld erfunden. Aber warum so wenig?",
 		"author": "Buddha",
 		"original": "Johann Nepomuk Eduard Ambrosius Nestroy"
 	},
 	"25": {
-		"quote": "Ihr Völker der Welt, schaut auf diese Stadt!",
+		"quote": "Ihr V&ouml;lker der Welt, schaut auf diese Stadt!",
 		"author": "Klaus Wowereit",
 		"original": "Ernst Reuter"
 	},
 	"26": {
-		"quote": "Die Macht ist nicht etwas, was man erwirbt, wegnimmt, teilt, was man bewahrt oder verliert; die Macht ist etwas, was sich von unzähligen Punkten aus und im Spiel ungleicher und beweglicher Beziehungen vollzieht.",
+		"quote": "Die Macht ist nicht etwas, was man erwirbt, wegnimmt, teilt, was man bewahrt oder verliert; die Macht ist etwas, was sich von unz&auml;hligen Punkten aus und im Spiel ungleicher und beweglicher Beziehungen vollzieht.",
 		"author": "Darth Vader",
-		"original": "Michel Foucault in Sexualität und Wahrheit"
+		"original": "Michel Foucault in Sexualit&auml;t und Wahrheit"
 	},
 	"27": {
 		"quote": "Niemand hat die Absicht, eine Mauer zu errichten.",
@@ -140,17 +140,17 @@ var quotes = {
 		"original": "Walter Ulbricht"
 	},
 	"28": {
-		"quote": "Verdammt sei der erste, der ein Stück Land mit einem Zaun umgab, und sagte: ”Dies gehört mir.” und verdammt seien die Leute, die einfältig genug waren, ihm zu glauben.",
+		"quote": "Verdammt sei der erste, der ein St&uuml;ck Land mit einem Zaun umgab, und sagte: ”Dies geh&ouml;rt mir.” und verdammt seien die Leute, die einf&auml;ltig genug waren, ihm zu glauben.",
 		"author": "Jaques Chirac/Charles de Gaulle/Napoleon I",
 		"original": "Jean-Jaques Rousseau"
 	},
 	"29": {
 		"quote": "There's no busines like show business",
 		"author": "Muammar al-Gaddafi",
-		"original": "Song von Irving Berlin, der für das Musical 'Annie get your gun' komponiert wurde"
+		"original": "Song von Irving Berlin, der f&uuml;r das Musical 'Annie get your gun' komponiert wurde"
 	},
 	"30": {
-		"quote": "Nichts ist mächtiger als eine Idee, deren Zeit gekommen ist.",
+		"quote": "Nichts ist m&auml;chtiger als eine Idee, deren Zeit gekommen ist.",
 		"author": "Paris Hilton",
 		"original": "Victor Hugo"
 	},
@@ -165,24 +165,24 @@ var quotes = {
 		"original": "Lied von Ton Steine Scherben"
 	},
 	"33": {
-		"quote": "Je öfter eine Dummheit wiederholt wird, desto mehr bekommt sie den Anschein der Klugheit.",
+		"quote": "Je &ouml;fter eine Dummheit wiederholt wird, desto mehr bekommt sie den Anschein der Klugheit.",
 		"author": "Lehman Brothers",
 		"original": "Voltaire"
 	},
 	"34": {
-		"quote": "Wer sagt: hier herrscht Freiheit, der lügt, denn Freiheit herrscht nicht.",
+		"quote": "Wer sagt: hier herrscht Freiheit, der l&uuml;gt, denn Freiheit herrscht nicht.",
 		"author": "Barack Obama",
 		"original": "Erich Fried"
 	},
 	"35": {
-		"quote": "Man muss eine Weile nachdenken, um zu erkennen, dass man unglücklich ist, doch es lohnt sich.",
+		"quote": "Man muss eine Weile nachdenken, um zu erkennen, dass man ungl&uuml;cklich ist, doch es lohnt sich.",
 		"author": "Sigmund Freud",
 		"original": "Shirley Bassey"
 	},
 	"36": {
-		"quote": "In diesem Fall ziehen Sie eine Maske schnell zu sich heran und platzieren diese fest auf Mund und Nase. Danach helfen Sie Kindern und hilfsbedürftigen Personen.",
+		"quote": "In diesem Fall ziehen Sie eine Maske schnell zu sich heran und platzieren diese fest auf Mund und Nase. Danach helfen Sie Kindern und hilfsbed&uuml;rftigen Personen.",
 		"author": "Batman zu Robin",
-		"original": "Typische Ansage von Flugbegleitern, die die Sicherheitsmaßnahmen vor einem Flug erklären"
+		"original": "Typische Ansage von Flugbegleitern, die die Sicherheitsmaßnahmen vor einem Flug erkl&auml;ren"
 	},
 	"37": {
 		"quote": "Wozu ist das? Das ist blaues Licht. Und was macht es? Es leuchtet blau.",
@@ -205,13 +205,13 @@ var quotes = {
 		"original": "Song von Cheap Trick"
 	},
 	"41": {
-		"quote": "Wer kämpft, kann verlieren. Wer nicht kämpft, hat schon verloren.",
+		"quote": "Wer k&auml;mpft, kann verlieren. Wer nicht k&auml;mpft, hat schon verloren.",
 		"author": "Optimus Prime",
 		"original": "Bertolt Brecht"
 	},
 	"42": {
-		"quote": "Köpfchen in das Wasser, Schwänzchen in die Höh.",
-		"author": "CIA Verhörmethode",
+		"quote": "K&ouml;pfchen in das Wasser, Schw&auml;nzchen in die H&ouml;h.",
+		"author": "CIA Verh&ouml;rmethode",
 		"original": "Kinderlied Alle meine Entchen"
 	},
 	"43": {
@@ -225,9 +225,9 @@ var quotes = {
 		"original": "Curt Goetz"
 	},
 	"45": {
-		"quote": "Das sind Gefühle, wo man nur schwer beschreiben kann.",
+		"quote": "Das sind Gef&uuml;hle, wo man nur schwer beschreiben kann.",
 		"author": "Thomas Mann bei der Nobelpreisverleihung 1929",
-		"original": "Jürgen Klinsmann zum Gewinn der Fußballeuropameisterschaft 1996"
+		"original": "J&uuml;rgen Klinsmann zum Gewinn der Fußballeuropameisterschaft 1996"
 	},
 	"46": {
 		"quote": "Ich habe eigentlich keine besonderen Talente. Ich bin nur leidenschaftlich neugierig.",
@@ -240,17 +240,17 @@ var quotes = {
 		"original": "Bertolt Brecht"
 	},
 	"48": {
-		"quote": "Wer kämpft, kann verlieren. Wer nicht kämpft, hat schon verloren.",
+		"quote": "Wer k&auml;mpft, kann verlieren. Wer nicht k&auml;mpft, hat schon verloren.",
 		"author": "Karl May",
 		"original": "Jean-Paul Sartre"
 	},
 	"49": {
 		"quote": "We hold this truth to be self-evident, that all men are created evil.",
 		"author": "aus Lord Of The Things von J.R.R. Ewing",
-		"original": "Amerikanische Unabhängigkeitserklärung"
+		"original": "Amerikanische Unabh&auml;ngigkeitserkl&auml;rung"
 	},
 	"50": {
-		"quote": "Der Mensch ist frei geboren und liegt doch überall in Ketten.",
+		"quote": "Der Mensch ist frei geboren und liegt doch &uuml;berall in Ketten.",
 		"author": "Holiday Inn",
 		"original": "Jean-Jacques Rousseau"
 	},
@@ -260,7 +260,7 @@ var quotes = {
 		"original": "Lied von Rammstein"
 	},
 	"52": {
-		"quote": "Wir werden nicht schweigend in der Nacht untergehen. Wir werden nicht ohne zu kämpfen vergehen. Wir werden überleben. Wir werden weiterleben. Heute feiern wir gemeinsam unseren Independence Day!",
+		"quote": "Wir werden nicht schweigend in der Nacht untergehen. Wir werden nicht ohne zu k&auml;mpfen vergehen. Wir werden &uuml;berleben. Wir werden weiterleben. Heute feiern wir gemeinsam unseren Independence Day!",
 		"author": "Ho Chi Minh",
 		"original": "Independence Day"
 	},
@@ -280,7 +280,7 @@ var quotes = {
 		"original": "Martin Luther King"
 	},
 	"56": {
-		"quote": "Der Bericht über meinen Tod wurde stark übertrieben.",
+		"quote": "Der Bericht &uuml;ber meinen Tod wurde stark &uuml;bertrieben.",
 		"author": "Mark Zuckerberg",
 		"original": "Mark Twain"
 	},
@@ -300,7 +300,7 @@ var quotes = {
 		"original": "Song von Pur"
 	},
 	"60": {
-		"quote": "Stets weiß man für jedes menschliche Problem eine Lösung — sauber, einleuchtend, und falsch.",
+		"quote": "Stets wei&szlig; man f&uuml;r jedes menschliche Problem eine L&uuml;sung - sauber, einleuchtend, und falsch.",
 		"author": "David Cameron",
 		"original": "Henry Louis Mencken"
 	},
