@@ -6,7 +6,7 @@ $(document).ready(function() {
 		var num = (Math.random() * maxKeyValue).toFixed(0);
 		var quote = quotes[num];
 
-			$('#quote__text').html(quote.quote);
+		$('#quote__text').html(quote.quote);
 		$('#quote__author').html(quote.author);
 	}
 
