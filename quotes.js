@@ -140,7 +140,7 @@ var quotes = {
 		"original": "Walter Ulbricht"
 	},
 	"28": {
-		"quote": "Verdammt sei der erste, der ein St&uuml;ck Land mit einem Zaun umgab, und sagte: ”Dies geh&ouml;rt mir.” und verdammt seien die Leute, die einf&auml;ltig genug waren, ihm zu glauben.",
+		"quote": "Verdammt sei der erste, der ein St&uuml;ck Land mit einem Zaun umgab, und sagte: &quot; Dies geh&ouml;rt mir.	&quot; und verdammt seien die Leute, die einf&auml;ltig genug waren, ihm zu glauben.",
 		"author": "Jaques Chirac/Charles de Gaulle/Napoleon I",
 		"original": "Jean-Jaques Rousseau"
 	},
@@ -182,7 +182,7 @@ var quotes = {
 	"36": {
 		"quote": "In diesem Fall ziehen Sie eine Maske schnell zu sich heran und platzieren diese fest auf Mund und Nase. Danach helfen Sie Kindern und hilfsbed&uuml;rftigen Personen.",
 		"author": "Batman zu Robin",
-		"original": "Typische Ansage von Flugbegleitern, die die Sicherheitsmaßnahmen vor einem Flug erkl&auml;ren"
+		"original": "Typische Ansage von Flugbegleitern, die die Sicherheitsma&szlig;nahmen vor einem Flug erkl&auml;ren"
 	},
 	"37": {
 		"quote": "Wozu ist das? Das ist blaues Licht. Und was macht es? Es leuchtet blau.",
@@ -227,7 +227,7 @@ var quotes = {
 	"45": {
 		"quote": "Das sind Gef&uuml;hle, wo man nur schwer beschreiben kann.",
 		"author": "Thomas Mann bei der Nobelpreisverleihung 1929",
-		"original": "J&uuml;rgen Klinsmann zum Gewinn der Fußballeuropameisterschaft 1996"
+		"original": "J&uuml;rgen Klinsmann zum Gewinn der Fu&szlig;balleuropameisterschaft 1996"
 	},
 	"46": {
 		"quote": "Ich habe eigentlich keine besonderen Talente. Ich bin nur leidenschaftlich neugierig.",

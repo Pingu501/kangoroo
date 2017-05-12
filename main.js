@@ -1,18 +1,23 @@
 $(document).ready(function() {
 
 	var maxKeyValue = Object.keys(quotes).length -1;
+	var container = $('.container');
 
 	function getRandomQuote() {
 		var num = (Math.random() * maxKeyValue).toFixed(0);
-		var quote = quotes[num];
+		setNewQuote(quotes[num]);
+	}
 
-		$('#quote__text').html(quote.quote);
+	function setNewQuote(quote) {
+		var quoteText = $('#quote__text');
+
+		quoteText.html(quote.quote);
 		$('#quote__author').html(quote.author);
 	}
 
 	getRandomQuote();
 
-	$('#new-quote').on('click', function () {
+	$('footer').on('click', function () {
 		getRandomQuote();
 	});
 
