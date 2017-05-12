@@ -38,12 +38,15 @@ html, body {
 }
 
 .quote {
-    position: relative;
-    margin: auto;
-
     display: flex;
-    width: 70%;
     flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+    width: 100%;
 }
 
 #quote__text {
@@ -51,7 +54,9 @@ html, body {
 
     transform: rotate(-5deg);
 
+    font-size: 1.4em;
     font-family: "Tafelschrift", monospace;
+
     color: white;
 }
 
@@ -60,6 +65,7 @@ html, body {
 
     transform: rotate(4deg);
 
+    text-align: right;
     font-family: "Tafelschrift", monospace;
     color: white;
 }
