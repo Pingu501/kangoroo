@@ -35,6 +35,8 @@ html, body {
 
     height: 100%;
     width: 100%;
+
+    justify-content: center;
 }
 
 .quote {
@@ -47,6 +49,7 @@ html, body {
     padding: 30px;
 
     width: 100%;
+    max-width: 800px;
 }
 
 #quote__text {
